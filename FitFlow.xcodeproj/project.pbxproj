@@ -10,6 +10,27 @@
 		0AD51BA22B289872006EC3F1 /* AddWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD51BA12B289872006EC3F1 /* AddWorkoutView.swift */; };
 		1ACD418A2B2225EB002C92F6 /* ExerciseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACD41892B2225EB002C92F6 /* ExerciseDetailView.swift */; };
 		1ACD418C2B222E48002C92F6 /* RepTextModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACD418B2B222E48002C92F6 /* RepTextModifier.swift */; };
+		1ACD41C32B32243E002C92F6 /* WatchFitFlowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACD41C22B32243E002C92F6 /* WatchFitFlowApp.swift */; };
+		1ACD41C52B32243E002C92F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACD41C42B32243E002C92F6 /* ContentView.swift */; };
+		1ACD41C72B322440002C92F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ACD41C62B322440002C92F6 /* Assets.xcassets */; };
+		1ACD41CA2B322440002C92F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ACD41C92B322440002C92F6 /* Preview Assets.xcassets */; };
+		1ACD41CD2B322440002C92F6 /* WatchFitFlow Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1ACD41C02B32243E002C92F6 /* WatchFitFlow Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1ACD41D22B3225A7002C92F6 /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FDF4952B2B7ED1002C88F1 /* LineChart.swift */; };
+		1ACD41D32B3225A7002C92F6 /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05D38732B29BBBC00EAEC45 /* Formatters.swift */; };
+		1ACD41D62B3225A7002C92F6 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6600742B2B4FB700D03B46 /* Tip.swift */; };
+		1ACD41D72B3225A7002C92F6 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C2DBF82B27922B00C610A3 /* Workout.swift */; };
+		1ACD41D82B3225A7002C92F6 /* ProgressChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FDF4972B2C53C9002C88F1 /* ProgressChartView.swift */; };
+		1ACD41D92B3225A7002C92F6 /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C2DBFC2B27947C00C610A3 /* Set.swift */; };
+		1ACD41DB2B3225A7002C92F6 /* RepTextModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACD418B2B222E48002C92F6 /* RepTextModifier.swift */; };
+		1ACD41DC2B3225A7002C92F6 /* VerticalProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09C38242B29EB9C00D12086 /* VerticalProgressView.swift */; };
+		1ACD41DD2B3225A7002C92F6 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FDF4992B2C54C1002C88F1 /* Functions.swift */; };
+		1ACD41E02B3225A7002C92F6 /* TopTextModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C2DBF42B27890C00C610A3 /* TopTextModifier.swift */; };
+		1ACD41E12B3225A7002C92F6 /* PreviousSetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09C38262B29EBD800D12086 /* PreviousSetCell.swift */; };
+		1ACD41E22B3225A7002C92F6 /* ComparisonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0524D4B2B2A32DA00F0E766 /* ComparisonView.swift */; };
+		1ACD41E32B3225A7002C92F6 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07FF61E2B28753200E23861 /* Exercise.swift */; };
+		1ACD41E42B3225A7002C92F6 /* SetRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09C38222B29EB7900D12086 /* SetRow.swift */; };
+		1ACD41E82B32271E002C92F6 /* AddSetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACD41E72B32271E002C92F6 /* AddSetView.swift */; };
+		1ACD41ED2B322DB1002C92F6 /* WatchDatePicker in Frameworks */ = {isa = PBXBuildFile; productRef = 1ACD41EC2B322DB1002C92F6 /* WatchDatePicker */; };
 		1C6600752B2B4FB700D03B46 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6600742B2B4FB700D03B46 /* Tip.swift */; };
 		1CC284532B270E6000B1C160 /* WorkoutDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC284522B270E6000B1C160 /* WorkoutDetailView.swift */; };
 		DF5EAAE42B279A83000FE22D /* EditSetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5EAAE32B279A83000FE22D /* EditSetView.swift */; };
@@ -41,10 +62,40 @@
 		F0FDF49A2B2C54C1002C88F1 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FDF4992B2C54C1002C88F1 /* Functions.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		1ACD41CB2B322440002C92F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F05D98992B221C140085DE0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1ACD41BF2B32243E002C92F6;
+			remoteInfo = "WatchFitFlow Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1ACD41CE2B322440002C92F6 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				1ACD41CD2B322440002C92F6 /* WatchFitFlow Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0AD51BA12B289872006EC3F1 /* AddWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWorkoutView.swift; sourceTree = "<group>"; };
 		1ACD41892B2225EB002C92F6 /* ExerciseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDetailView.swift; sourceTree = "<group>"; };
 		1ACD418B2B222E48002C92F6 /* RepTextModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepTextModifier.swift; sourceTree = "<group>"; };
+		1ACD41C02B32243E002C92F6 /* WatchFitFlow Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchFitFlow Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ACD41C22B32243E002C92F6 /* WatchFitFlowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchFitFlowApp.swift; sourceTree = "<group>"; };
+		1ACD41C42B32243E002C92F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1ACD41C62B322440002C92F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1ACD41C92B322440002C92F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1ACD41E72B32271E002C92F6 /* AddSetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSetView.swift; sourceTree = "<group>"; };
 		1C6600742B2B4FB700D03B46 /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
 		1CC284522B270E6000B1C160 /* WorkoutDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDetailView.swift; sourceTree = "<group>"; };
 		DF5EAAE32B279A83000FE22D /* EditSetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditSetView.swift; sourceTree = "<group>"; };
@@ -77,6 +128,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1ACD41BD2B32243E002C92F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ACD41ED2B322DB1002C92F6 /* WatchDatePicker in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F05D989E2B221C140085DE0A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -101,6 +160,42 @@
 				0AD51BA12B289872006EC3F1 /* AddWorkoutView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		1ACD41C12B32243E002C92F6 /* WatchFitFlow Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				1ACD41E92B322722002C92F6 /* Features */,
+				1ACD41C22B32243E002C92F6 /* WatchFitFlowApp.swift */,
+				1ACD41C42B32243E002C92F6 /* ContentView.swift */,
+				1ACD41C62B322440002C92F6 /* Assets.xcassets */,
+				1ACD41C82B322440002C92F6 /* Preview Content */,
+			);
+			path = "WatchFitFlow Watch App";
+			sourceTree = "<group>";
+		};
+		1ACD41C82B322440002C92F6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1ACD41C92B322440002C92F6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1ACD41E92B322722002C92F6 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				1ACD41EA2B322738002C92F6 /* AddSet */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		1ACD41EA2B322738002C92F6 /* AddSet */ = {
+			isa = PBXGroup;
+			children = (
+				1ACD41E72B32271E002C92F6 /* AddSetView.swift */,
+			);
+			path = AddSet;
 			sourceTree = "<group>";
 		};
 		F05D386E2B29B53F00EAEC45 /* AddSet */ = {
@@ -132,6 +227,7 @@
 			isa = PBXGroup;
 			children = (
 				F05D98A32B221C140085DE0A /* FitFlow */,
+				1ACD41C12B32243E002C92F6 /* WatchFitFlow Watch App */,
 				F05D98A22B221C140085DE0A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -140,6 +236,7 @@
 			isa = PBXGroup;
 			children = (
 				F05D98A12B221C140085DE0A /* FitFlow.app */,
+				1ACD41C02B32243E002C92F6 /* WatchFitFlow Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -344,6 +441,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		1ACD41BF2B32243E002C92F6 /* WatchFitFlow Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ACD41D12B322440002C92F6 /* Build configuration list for PBXNativeTarget "WatchFitFlow Watch App" */;
+			buildPhases = (
+				1ACD41BC2B32243E002C92F6 /* Sources */,
+				1ACD41BD2B32243E002C92F6 /* Frameworks */,
+				1ACD41BE2B32243E002C92F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchFitFlow Watch App";
+			packageProductDependencies = (
+				1ACD41EC2B322DB1002C92F6 /* WatchDatePicker */,
+			);
+			productName = "WatchFitFlow Watch App";
+			productReference = 1ACD41C02B32243E002C92F6 /* WatchFitFlow Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
 		F05D98A02B221C140085DE0A /* FitFlow */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F05D98B12B221C140085DE0A /* Build configuration list for PBXNativeTarget "FitFlow" */;
@@ -351,10 +468,12 @@
 				F05D989D2B221C140085DE0A /* Sources */,
 				F05D989E2B221C140085DE0A /* Frameworks */,
 				F05D989F2B221C140085DE0A /* Resources */,
+				1ACD41CE2B322440002C92F6 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1ACD41CC2B322440002C92F6 /* PBXTargetDependency */,
 			);
 			name = FitFlow;
 			productName = FitFlow;
@@ -371,6 +490,9 @@
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
+					1ACD41BF2B32243E002C92F6 = {
+						CreatedOnToolsVersion = 15.0;
+					};
 					F05D98A02B221C140085DE0A = {
 						CreatedOnToolsVersion = 15.0;
 					};
@@ -385,16 +507,29 @@
 				Base,
 			);
 			mainGroup = F05D98982B221C140085DE0A;
+			packageReferences = (
+				1ACD41EB2B322DB1002C92F6 /* XCRemoteSwiftPackageReference "watch-date-picker" */,
+			);
 			productRefGroup = F05D98A22B221C140085DE0A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				F05D98A02B221C140085DE0A /* FitFlow */,
+				1ACD41BF2B32243E002C92F6 /* WatchFitFlow Watch App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1ACD41BE2B32243E002C92F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ACD41CA2B322440002C92F6 /* Preview Assets.xcassets in Resources */,
+				1ACD41C72B322440002C92F6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F05D989F2B221C140085DE0A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -407,6 +542,30 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1ACD41BC2B32243E002C92F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ACD41E22B3225A7002C92F6 /* ComparisonView.swift in Sources */,
+				1ACD41D92B3225A7002C92F6 /* Set.swift in Sources */,
+				1ACD41C52B32243E002C92F6 /* ContentView.swift in Sources */,
+				1ACD41E32B3225A7002C92F6 /* Exercise.swift in Sources */,
+				1ACD41DD2B3225A7002C92F6 /* Functions.swift in Sources */,
+				1ACD41DB2B3225A7002C92F6 /* RepTextModifier.swift in Sources */,
+				1ACD41C32B32243E002C92F6 /* WatchFitFlowApp.swift in Sources */,
+				1ACD41E82B32271E002C92F6 /* AddSetView.swift in Sources */,
+				1ACD41D72B3225A7002C92F6 /* Workout.swift in Sources */,
+				1ACD41DC2B3225A7002C92F6 /* VerticalProgressView.swift in Sources */,
+				1ACD41E02B3225A7002C92F6 /* TopTextModifier.swift in Sources */,
+				1ACD41D82B3225A7002C92F6 /* ProgressChartView.swift in Sources */,
+				1ACD41D62B3225A7002C92F6 /* Tip.swift in Sources */,
+				1ACD41E12B3225A7002C92F6 /* PreviousSetCell.swift in Sources */,
+				1ACD41D32B3225A7002C92F6 /* Formatters.swift in Sources */,
+				1ACD41E42B3225A7002C92F6 /* SetRow.swift in Sources */,
+				1ACD41D22B3225A7002C92F6 /* LineChart.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F05D989D2B221C140085DE0A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -446,7 +605,77 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		1ACD41CC2B322440002C92F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1ACD41BF2B32243E002C92F6 /* WatchFitFlow Watch App */;
+			targetProxy = 1ACD41CB2B322440002C92F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		1ACD41CF2B322440002C92F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchFitFlow Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 4Y3SF6KR8W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchFitFlow;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.vergaraaa.FitFlow;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vergaraaa.FitFlow.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		1ACD41D02B322440002C92F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchFitFlow Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 4Y3SF6KR8W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchFitFlow;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.vergaraaa.FitFlow;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vergaraaa.FitFlow.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
 		F05D98AF2B221C140085DE0A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -569,6 +798,7 @@
 		F05D98B22B221C140085DE0A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -598,6 +828,7 @@
 		F05D98B32B221C140085DE0A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -627,6 +858,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1ACD41D12B322440002C92F6 /* Build configuration list for PBXNativeTarget "WatchFitFlow Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ACD41CF2B322440002C92F6 /* Debug */,
+				1ACD41D02B322440002C92F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F05D989C2B221C140085DE0A /* Build configuration list for PBXProject "FitFlow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -646,6 +886,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1ACD41EB2B322DB1002C92F6 /* XCRemoteSwiftPackageReference "watch-date-picker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/freysie/watch-date-picker";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1ACD41EC2B322DB1002C92F6 /* WatchDatePicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1ACD41EB2B322DB1002C92F6 /* XCRemoteSwiftPackageReference "watch-date-picker" */;
+			productName = WatchDatePicker;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F05D98992B221C140085DE0A /* Project object */;
 }
